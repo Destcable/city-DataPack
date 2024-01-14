@@ -16,8 +16,8 @@ execute as @a[scores={thirst=45000..59999}] run title @a actionbar {"text":"Жа
 execute as @a[scores={thirst=60000..74999}] run title @a actionbar {"text":"Жажда: {6}"}
 execute as @a[scores={thirst=75000..89999}] run title @a actionbar {"text":"Жажда: {5}"}
 execute as @a[scores={thirst=90000..104999}] run title @a actionbar {"text":"Жажда: {4}"}
-execute as @a[scores={thirst=105000..119999}] run title @a actionbar {"text":"Жажда: {3}"}
-execute as @a[scores={thirst=120000..134999}] run title @a actionbar {"text":"Жажда: {2}"}
+execute as @a[scores={thirst=105000..119999}] run execute as @s[gamemode=survival] run title @a actionbar {"text":"                         \uE010\uE010\uE010\uE010\uE010\uE010\uE010\uE005\uE005\uE005"}
+execute as @a[scores={thirst=120000..134999}] run execute as @s[gamemode=survival] run title @a actionbar {"text":"                         \uE010\uE010\uE010\uE010\uE010\uE010\uE010\uE010\uE005\uE005"}
 execute as @a[scores={thirst=135000..149999}] run title @a actionbar {"text":"Жажда: {1}"}
 
 # Истощение
