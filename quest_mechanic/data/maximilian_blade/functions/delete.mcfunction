@@ -1,0 +1,1 @@
+kill @e[type=minecraft:villager, nbt={Tags:[npc_maximilian_blade]}]
