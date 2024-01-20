@@ -1,3 +1,2 @@
 # Продавец магазина
-# summon minecraft:villager -2676.3 47 -1946.2 {NoAI:1, Rotation:[-90f, 0f], CustomName:'{"text":"Продавец","color":"green"}', CustomNameVisible:1, Offers:{Recipes:[{buy:{id:"minecraft:oak_log",Count:5},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"minecraft:water"}}}]}}
 summon minecraft:villager -2676.3 47 -1946.2 {NoAI:1, Rotation:[-90f,0f], CustomName:'{"text":"Продавец","color":"green"}', CustomNameVisible:1, Team:"greenTeam", Offers:{Recipes:[{buy:{id:"minecraft:oak_log",Count:5},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"minecraft:water"}},maxUses:9999999, rewardExp:0b}]}, Invulnerable:1}
