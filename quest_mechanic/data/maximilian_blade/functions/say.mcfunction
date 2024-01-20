@@ -12,4 +12,4 @@ execute as @a[scores={questMaximilianPassport=0}] run tellraw @s {"text":"[На�
 execute as @a[scores={questMaximilianPassport=1}] run tellraw @s {"text":"[Вы уже выполняете] Получение паспорта","color":"gold"}
 execute as @a[scores={questMaximilianPassport=1}] run tellraw @s {"text":"[Нажмите, чтобы отказаться]","clickEvent":{"action":"run_command","value":"/scoreboard players set @s questMaximilianPassport 0"},"color":"red"}
 
-advancement revoke @s from maximilian_blade:npcMaximilianBlade
+advancement revoke @s from maximilian_blade:npc
