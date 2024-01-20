@@ -1,6 +1,6 @@
 execute as @a[scores={questMaximilianPassport=0}] run tellraw @s "[Максимилиан Блэйд] Приветствую тебя в нашем штате!" 
 
-execute as @a[scores={questMaximilianPassport=0}] run tellraw @s {"text":"[Первое задание]","color":"gold"}
+execute as @a[scores={questMaximilianPassport=0}] run tellraw @s {"text":"[Первое задание] Получение паспорта","color":"gold"}
 
 execute as @a[scores={questMaximilianPassport=0}] run tellraw @s {"text":"[Максимилиан Блэйд] Для получения полного доступа ко всем возможностям штата, начните с получения паспорта!","color":"white"}
 execute as @a[scores={questMaximilianPassport=0}] run tellraw @s {"text":"[Максимилиан Блэйд] Посетите местный офис иммиграции для начала процесса оформления.","color":"white"}
